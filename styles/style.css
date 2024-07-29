@@ -132,18 +132,11 @@ body{
         justify-content: center;
     }
     .apresentacao{
-        padding: 5% 5%;
+        padding: 5%;
         flex-direction: column-reverse;
         gap: 40px;
     }
     .apresentacao__conteudo{
         width: auto;
-    }
-    .apresentacao__imagem{
-        width: 100%;
-        height: 50%;
-    }
-    .apresentacao__links__navegacao{
-        width: 100%;
     }
 }
