@@ -44,7 +44,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 80px;
+    gap: 82px;
 }
 .apresentacao__conteudo{
     width: 50%;
@@ -58,12 +58,6 @@ body{
     font-family: var(--fonte-primaria);
 }
 
-
-.apresentacao__conteudo__texto a{
-    text-decoration: none;
-    color: var(--cor-primaria);
-}
-
 .titulo-destaque{
     color: var(--cor-primaria);
 }
@@ -72,6 +66,7 @@ body{
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
+
 
 .apresentacao__links{
     display: flex;
@@ -105,18 +100,14 @@ body{
 }
 
 .apresentacao__imagem{
-    width: 615px ;
-    height: 50% ;
-    background-image: url('https://images.unsplash.com/photo-1612838320303-4b3b3b3b3b3b');
-    background-size: cover;
-    background-position: center;
+    width: 50%;
     border-radius: 8px;
 }
 
 .rodape{
-    padding: 24px;
-    background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    padding: 24px;
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
@@ -125,16 +116,15 @@ body{
 
 @media (max-width: 1200px){
     .cabecalho{
-        padding: 10% 0% 0% 10%;
+        padding: 10%;
     }
 
     .cabecalho__menu{
         justify-content: center;
     }
     .apresentacao{
-        padding: 5%;
         flex-direction: column-reverse;
-        gap: 40px;
+        padding: 5%;
     }
     .apresentacao__conteudo{
         width: auto;
